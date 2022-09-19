@@ -26,7 +26,7 @@ export default function App() {
     Inter_900Black
   });
 
-  // -------//Sistema de Notificação ao Usuário//---------
+  // -------/// Sistema de Notificação ao Usuário ///---------
   
   const getNotificationListener = useRef<Subscription>();
   const responseNotificationListener = useRef<Subscription>();
