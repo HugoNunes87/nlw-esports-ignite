@@ -14,7 +14,7 @@
 ## 💻 Projeto
 
   No NLW eSports estamos desenvolvendo uma plataforma web e mobile onde Gamers podem encontrar parceiros para seus jogos favoritos.
-  O projeto foi desenvolvido ultilizando React com TypeScript e React Native com Expo, SQLite e Tailwind UI CSS.
+  O projeto foi desenvolvido ultilizando React(ViteJS) com TypeScript e React Native com Expo, SQLite e Tailwind UI CSS.
 
   Na aplicação WEB, é possível criar anúncios para encontrar parceiros (ou duos). Já na aplicação mobile, 
   é possível acessar esses anúncios e visualizar as informações de cada jogador,
