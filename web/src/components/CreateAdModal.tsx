@@ -5,8 +5,8 @@ import { useEffect, useState, FormEvent } from 'react';
 import { Check, GameController } from 'phosphor-react';
 import { Input } from './Form/input';
 import axios from 'axios';
-
-
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 interface Game {
     id: string;
@@ -45,10 +45,14 @@ export function CreateAdModal() {
                 hourEnd: data.hourEnd,
                 useVoiceChannel: useVoiceChannel,
             })
-            alert('Anúncio criado com sucesso!')
+             toast.success('Anúncio criado com sucesso!', {
+                onClick: () => window.location.reload(),
+             });
+            // window.location.reload();
+            // alert('Anúncio criado com sucesso!');
         } catch (err) {
             console.log(err)
-            alert('Erro ao criar o anúncio!')
+            toast.error('Erro ao criar o anúncio!');
         }
     }
 
@@ -180,12 +184,22 @@ export function CreateAdModal() {
                     </div>
                     <footer className='mt-4 flex justify-end gap-4'>
                         <Dialog.Close className='bg-zinc-500 px-5 h-12 rounded-md font-semibold hover:bg-zinc-600'>Cancelar</Dialog.Close>
-                        <button className='bg-violet-500 px-5 h-12 rounded-md font-semibold flex items-center gap-3 hover:bg-violet-600' type='submit'>
+                        <button
+                            className='bg-violet-500 px-5 h-12 rounded-md font-semibold flex items-center gap-3 hover:bg-violet-600' type='submit'>
                             <GameController size={24} />
                             Encontrar duo
                         </button>
                     </footer>
                 </form>
+                <ToastContainer
+                    position="top-center"
+                    autoClose={5000}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss
+                    draggable
+                />
             </Dialog.Content>
         </Dialog.Portal>
     )
