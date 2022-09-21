@@ -11,7 +11,7 @@
   <a href="#-licença">Lincença</a>
 </p>
 
-## 💻 Projeto
+## 🧑‍💻 Projeto 
 
   No NLW eSports estamos desenvolvendo uma plataforma web e mobile onde Gamers podem encontrar parceiros para seus jogos favoritos.
   O projeto foi desenvolvido ultilizando React(ViteJS) com TypeScript e React Native com Expo, SQLite e Tailwind UI CSS.
@@ -22,9 +22,14 @@
 
 
   
- ### ✅ Demonstração (web)
+ ### ✅ Demonstração (Web) 💻
 <p align="center">
   <img src="web/.github/demonstration.gif"> 
+</p>
+
+ ### ✅ Demonstração (Mobile) 📲
+<p align="center">
+  <img src="web/.github/mobile.gif"> 
 </p>
 
 
