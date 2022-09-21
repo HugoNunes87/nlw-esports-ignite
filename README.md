@@ -22,9 +22,9 @@
 
 
   
- ### ✅ Demonstração
- <p align="center">
-  <img src="Client/src/Assets/to_readme/LoginDashboard.gif"> 
+ ### ✅ Demonstração (web)
+<p align="center">
+  <img src="web/.github/demonstration.gif"> 
 </p>
 
 
