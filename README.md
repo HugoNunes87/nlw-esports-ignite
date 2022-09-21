@@ -89,7 +89,7 @@ mobile
    At NLW eSports we are developing a web and mobile platform where Gamers can find partners for their favorite games.
    The project was developed using React(ViteJS) with TypeScript and React Native with Expo, SQLite and Tailwind UI CSS.
 
-   In the WEB application, it is possible to create advertisements to find partners (or duos). In the mobile application,
+   In the WEB application, it is possible to create advertisements to find partners (or duos). In the MOBILE application,
    it is possible to access these advertisements and view the information of each player,
    and you can copy the player's Discord username to the clipboard to add them to your friends list.
 
