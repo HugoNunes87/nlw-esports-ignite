@@ -45,6 +45,9 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 📗 Installation
 
+# Clone este repositório
+$ git clone https://github.com/HugoNunes87/nlw-esports-ignite.git
+
 Web
 1. $ cd web
 2. $ npm install 
