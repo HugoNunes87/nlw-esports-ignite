@@ -65,7 +65,7 @@ mobile
 1. $ cd mobile
 2. $ npm install 
   or $ yarn install
-3. $ expo start 
+3. $ npx expo start 
 ```
 
 ## 🚀 Bibliotecas usadas
